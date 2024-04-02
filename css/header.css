@@ -1,0 +1,52 @@
+.header {
+  background-color: #70b85f;
+  padding: 10px 0;
+  position: fixed;
+  top: 0px;
+  z-index: 999;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.header .header_container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .header_container ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 0 20px;
+  color: white;
+  font-size: 20px; 
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  cursor: pointer;
+}
+
+.header .header_container ul li:hover {
+  text-decoration: underline;
+  text-underline-offset: 20px;
+}
+
+.header .header_container ul li button {
+  padding: 15px 25px;
+  border-radius: 60px;
+  border: none;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  color: #4b9438;
+  font-weight: 800;
+  font-size: 16px;
+  font-family: sans-serif;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.header .header_container ul li button:hover {
+  background-color: #4b9438;
+  color: white;
+}

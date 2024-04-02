@@ -1,0 +1,56 @@
+#home {
+  background-color: #70b85f;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px 0;
+}
+
+#home p {
+  font-size: 43px;
+}
+
+#home h1 {
+  width: 70%;
+  text-align: center;
+  font-size: 90px;
+}
+
+#home button {
+  z-index: 90;
+  padding: 15px 25px;
+  border-radius: 60px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  font-weight: 800;
+  font-size: 16px;
+  font-family: sans-serif;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+#home button:hover {
+  background-color: white;
+  color: #70b85f;
+}
+
+#home img {
+  position: absolute;
+  bottom: 0;
+}
+
+.right {
+  right: 0px;
+  z-index: 90;
+}
+
+.left {
+  left: 0px;
+  z-index: 90;
+}
