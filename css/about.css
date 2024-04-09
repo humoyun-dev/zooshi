@@ -1,28 +1,58 @@
 #about {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 80%;
-  height: 100vh;
-  margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    font-family: sans-serif;
 }
 
 #about .content,
-#about .image {
-  width: 50%;
+#about .Imega {
+    width: 50%;
+    height: fit-content;
+    margin-top: 500px;
 }
 
-#about .content {
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-  justify-content: center;
-  align-items: start;
+#about .Imega {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
+.as{
+    margin-bottom: 200px;
+}
+.ii {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    right: 260px;
+    bottom: -700px;
+}
+.i {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 90px;;
+    position: relative;
+    top: 70px;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-name: animatsiya;
+    animation-duration: 7s;
 
-#about .image {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+}
+@keyframes animatsiya {
+    0% {
+        transform: scale(90%)
+    }
+    50%{
+        transform: scale(100%);
+    }
+    100%{
+        transform: scale(90%)
+    }
 }

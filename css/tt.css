@@ -1,0 +1,51 @@
+.tt{
+    width: 100%;
+    height: 100vh;
+   
+}
+.yy{
+    background-image: url( "../imges/servicebg.jpg");
+    width: 100%;
+     height: 65vh;
+      
+}
+.jj{
+    display: flex;
+    gap: 200px;
+    margin: 100px;
+    padding: 0;
+}
+.pp:hover{
+    box-shadow: 1px 2px 2px 2px black;
+}
+.rr img{
+ margin: 80px;
+ 
+}
+.img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.omogad {
+    margin-top: 20px;
+    text-align: center;
+}
+.ww{
+    background-color: green;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 110px;
+    text-align: center;
+   
+}
+.uu{
+    background-color: rgb(251, 250, 250);
+    height: 190px;
+    margin-top: 0;
+    padding-top: 0; 
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid black;
+}
+
